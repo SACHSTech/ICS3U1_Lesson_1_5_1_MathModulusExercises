@@ -1,13 +1,22 @@
 class FtoC extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * converts fahrenheit to celsius
+  * @author:N.Judd
   */
   
   public void run() {
-    
-    // start coding here
-    
+    // declare variables 
+    double dblF;
+    double dblC;
+
+    // get input
+    dblF = readDouble("What is a degree measure in farhenheit? ");
+
+    // calulate celsius
+    dblC = (5.0 / 9.0) * (dblF - 32);
+
+    // output
+    System.out.println(dblF + " degrees farhenheit is " + dblC + " degrees celsius");
   }
 }
