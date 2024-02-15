@@ -1,8 +1,8 @@
 class Cos3rd extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * This code calculates side C of a triangle
+  * @author:N.Judd
   */
   
   public void run() {
